@@ -40,6 +40,35 @@ const playersArray = [
     
   ] 
 
+ function mouseOver(img) {
+  document.addEventListener("mouseover", )
+
+ }
+  mouseOver()
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   //create fetch with the db.json
   //done
@@ -50,8 +79,9 @@ const playersArray = [
   //title will be Goat Vote!
   //done
   //3 pictures will be there 1 of MJ, Kobe, Lebron
-  // 
+  // done
   //create a hover event so there names will appear when the mouse is over the picture
+
   //create a search bar
   //create a submit event
   //Type in a players name there stats will appear, with a picture
