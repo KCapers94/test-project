@@ -24,11 +24,23 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
+    transition: opacity 0.25s;
 }
+
+.image-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
 
 .image-overlay:hover {
     opacity: 1;
 }
+
+.image-overlay:hover > * {
+    transform: translateY(0);
+}
+
 
 
 .image-title {
@@ -37,6 +49,66 @@
 }
 
 .image-description {
+    font-size:medium;
+    margin: top 0.25em;
+}
+
+
+
+
+
+
+.image-container2 {
+    position: relative;
+    width: 400px;
+
+}
+
+.image2 {
+    display: block;
+    width:100%;
+
+}
+
+.image-overlay2{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.6);
+    color:#ffffff;
+    font-family:'Courier New', Courier, monospace;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-overlay2:hover > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+
+.image-overlay2:hover {
+    opacity: 1;
+}
+
+.image-overlay2:hover > * {
+    transform: translateY(0);
+}
+
+
+
+.image-title2 {
+    font-size:large;
+    font-weight: bold;
+}
+
+.image-description2 {
     font-size:medium;
     margin: top 0.25em;
 }
