@@ -1,3 +1,13 @@
+
+.h4 {
+    font-size: larger;
+}
+
+
+
+
+
+
 .image-container1 {
     position: relative;
     width: 400px;
@@ -170,4 +180,15 @@
 .image-description3 {
     font-size:medium;
     margin: top 0.25em;
+}
+
+
+.container{
+    width:375px;
+    height: 520px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
 }
