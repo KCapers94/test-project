@@ -4,17 +4,17 @@ body .title {
     justify-content: center;
     align-items: center;
     height: 65 vh; 
-    margin-bottom: 2em;
+    margin-bottom: .9em;
   }
   
 
 .title{
     color:#ffffff;
-    font-size: 120px;
+    font-size: 100px;
     font:bolder;
     margin-bottom: auto;
 }
-
+ 
 
 .image-container1 {
     position: relative;
@@ -25,7 +25,8 @@ body .title {
 .image1 {
     display: block;
     width:100%;
-
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .image-overlay{
@@ -85,7 +86,8 @@ body .title {
 .image2 {
     display: block;
     width:100%;
-
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .image-overlay2{
@@ -144,7 +146,8 @@ body .title {
 .image3 {
     display: block;
     width:100%;
-
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .image-overlay3{
