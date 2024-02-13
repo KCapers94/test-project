@@ -1,11 +1,19 @@
 
-.h4 {
-    font-size: larger;
+body .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65 vh; 
+    margin-bottom: 2em;
+  }
+  
+
+.title{
+    color:#ffffff;
+    font-size: 120px;
+    font:bolder;
+    margin-bottom: auto;
 }
-
-
-
-
 
 
 .image-container1 {
