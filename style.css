@@ -9,7 +9,7 @@ body .title {
   
 
 .title{
-    color:#ffffff;
+    color:#000000;
     font-size: 100px;
     font:bolder;
     margin-bottom: auto;
@@ -202,4 +202,34 @@ body .title {
     flex-direction:column;
     align-items: center;
     justify-content:center;
+    padding:10px;
 }
+
+.container form{
+    width:100%;
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form {
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+  }
+  
+  .container form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+  }
+  
