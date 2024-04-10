@@ -1,19 +1,25 @@
 
 const init = () => {
-  const inputForm = document.querySelector("#nbaCard")
-  
+  const inputForm = document.querySelector("form")
+
   inputForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const input = document.querySelector("#playerName").value;
+    const input = document.querySelector("input#search-by-name")
+    const inputValue = input.value
+
+  
+    fetch("http://localhost:3000/players")
+    .then((resp) => resp.json())
+    .then((data) => { 
+      const typedName = input.value
+      const foundName = data.filter(item => item.name === typedName)
+      console.log(foundName)
+    })
     
+})
 
-  fetch(`http://localhost:3000/players/${input}`)
-  .then((res) => res.json())
-  .then((data) => console.log(data)
-)});
-};
-
-
+}
+  
 
 document.addEventListener("DOMContentLoaded", init)
  

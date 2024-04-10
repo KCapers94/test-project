@@ -4,68 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .image-container1,
-        .image-container2,
-        .image-container3 {
-            display: inline-block;
-            margin-right: 100px;
-        }
-
-        .image-container3 {
-            margin-right: 0px;
-        }
-
-        
-    </style>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
 </head>
-<body background>
+<body>
     <script src="index.js"></script>
-    <h4 class="title">Goat Vote</h4>
-    <div class="image-container1">
-        <img class="image1" src="https://media4.s-nbcnews.com/i/streams/2012/August/120814/412208-tdy-120810-tih-jordan-orig.jpg" alt="MJ">
-        <div class="image-overlay">
-            <div class="image-title">Michael Jordan</div>
-            <p class="image-description">
-                "Air Jordan".
-            </p>
-        </div>
-    </div>
+    <form id="nba-form">
+        <input id="search-by-name" type="text" placeholder="Enter Name">
+        <input type="submit"/>
 
-    <div class="image-container2">
-        <img class="image2" src="https://media.gettyimages.com/id/51790736/photo/kobe-bryant-action-portrait.jpg?s=594x594&w=gi&k=20&c=qo6s4_RaVzmgZoV5mvzp_n6Ehl0RMjzRW4Orutzdyaw=" alt="Kobe">
-        <div class="image-overlay2">
-            <div class="image-title2">Kobe Bryant</div>
-            <p class="image-description2">
-                "The Black Mamba".
-            </p>
-        </div>
-    </div>
-
-    <div class="image-container3">
-        <img class="image3" src="https://cdn.vox-cdn.com/thumbor/IfZUNqH7ci9nprtByj7PaOPVJlw=/0x0:600x414/1200x800/filters:focal(252x159:348x255)/cdn.vox-cdn.com/uploads/chorus_image/image/60515279/gyi0062723774.0.0.0.jpg" alt="Lebron">
-        <div class="image-overlay3">
-            <div class="image-title3">Lebron James</div>
-            <p class="image-description3">
-                "King James".
-            </p>
-        </div>
-    
-    </div>
-
-    <section class="container">
-        <form id="nbaCard">
-            <i class="fas fa-search"></i>
-            <input type="text" name=" " id="playerName" placeholder="Select player">
-            
-        </form>
-    </section>
-    <section id="Stats">
-        <h4 id ="#info">Player</h4>
-        <p id = "#info2">Stats</p>
-    </section>
+    </form>
 </body>
 </html>
 
