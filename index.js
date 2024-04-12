@@ -25,7 +25,7 @@ function renderBballCard(players) {
     const card = document.createElement("ul");
     card.className = "card";
     card.innerHTML = `
-      <img src="${player.img}">
+      <img id="nba-image" src="${player.img}">
       <div class="content">
         <h4>${player.name}</h4>
         <p> Team- ${player.team}</p>
@@ -36,6 +36,15 @@ function renderBballCard(players) {
         <p> Career Average Points- ${player.careerAvgPoints}</p>
       </div>
     `;
+    
+     card.addEventListener("mouseover", event => {
+      event.target.style.backgroundColor = "black"
+    })
+
+    card.addEventListener("mouseout", event => {
+      event.target.style.backgroundColor = "white"
+    })
+
 
     nbaCard.append(card);
   });
