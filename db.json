@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "Michael Jordan",
+      "img":"https://img.bleacherreport.net/img/images/photos/002/161/955/Jordan_dunk_original_original_original_crop_exact_crop_north.jpeg?1361040133&w=3072&h=2048",
       "team": "Chicago Bulls, Washington Wizards",
       "position": "Shooting Guard",
       "height": "6'6",
@@ -13,6 +14,7 @@
     {
       "id": "2",
       "name": "Kobe Bryant",
+      "img":"https://s.yimg.com/ny/api/res/1.2/amBY86pTqJLMHyBcAAU1Tg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTg2Mg--/https://media.zenfs.com/en/aol_la_times_articles_830/46b9aba75bb734261a14fbd0544237ff",
       "team": "Los Angeles Lakers",
       "position": "Shooting Guard",
       "height": "6'6",
@@ -23,6 +25,7 @@
     {
       "name": "Lebron James",
       "id": "3",
+      "img":"https://www.usatoday.com/gcdn/-mm-/5d628bda6470b1cc3e461577464f34c46999618a/c=0-150-2918-1791/local/-/media/2016/10/25/USATODAY/usatsports/lebron-dunk.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp",
       "team": "Cleveland Cavaliers, Miami Heat, Los Angeles Lakers",
       "position": "Shooting Guard",
       "height": "6'8",
@@ -33,6 +36,7 @@
     {
       "id": "4",
       "name": "Erving Magic Johnson",
+      "img":"https://i.pinimg.com/564x/5d/bc/b6/5dbcb6c8db6e9bde1ee38f4bee81989c.jpg",
       "team": "Los Angeles Lakers",
       "position": "Point Guard",
       "height": "6'9",
@@ -43,6 +47,7 @@
     {
       "id": "5",
       "name": "Shaquille O'Neal",
+      "img":"https://i.pinimg.com/736x/a7/80/b4/a780b4dc81ec19dbb6f2196ffb28a750.jpg",
       "team": "Orlando Magic, Los Angeles Lakers, Miami Heat",
       "position": "Center",
       "height": "7'1",
@@ -53,6 +58,7 @@
     {
       "id": "6",
       "name": "Larry Bird",
+      "img":"https://i.pinimg.com/736x/d8/fe/c2/d8fec2e69a14daf7d3a8e701058afe77.jpg",
       "team": "Boston Celtics",
       "position": "Small Forward",
       "height": "6'9",
