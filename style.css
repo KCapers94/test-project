@@ -1,0 +1,52 @@
+.image-container{
+    display: flex;
+}
+
+#jordan{
+width: 200px;
+height: 200px;
+margin-left:80px;
+}
+
+#kobe{
+    width: 200px;
+    height: 200px;
+    margin-left:10px;
+}
+
+#james{
+    width: 200px;
+    height: 200px;
+    margin-left:10px;
+}
+
+#magic{
+    width: 200;
+    height: 200px;
+    margin-left:10px;
+}
+
+#shaq{
+    width: 200px;
+    height: 200px;
+    margin-left:10px;
+}
+
+#larry{
+    width: 200px;
+    height: 200px;
+    margin-left:10px;
+}
+
+
+#nba-form{
+    margin-top: 80px;
+}
+
+#name-Over{
+    font-size: larger;
+    color:rgb(0, 3, 6);
+    margin-left: 50px;
+    
+}
+

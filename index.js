@@ -36,13 +36,20 @@ function renderBballCard(players) {
         <p> Career Average Points- ${player.careerAvgPoints}</p>
       </div>
     `;
+  
+    const pic = card.querySelector("img")
+    const nameOverImg = document.createElement('div')
+    nameOverImg.id = "name-Over"
+    nameOverImg.className = "name-Over-Img"
+    nameOverImg.textContent = `${player.name}`;
+    nbaCard.appendChild(nameOverImg)
     
-     card.addEventListener("mouseover", event => {
-      event.target.style.backgroundColor = "black"
+    pic.addEventListener("mouseover", ()=> {
+      nameOverImg.style.display = "block";
     })
 
-    card.addEventListener("mouseout", event => {
-      event.target.style.backgroundColor = "white"
+    pic.addEventListener("mouseout", () => {
+      nameOverImg.style.display = "none";
     })
 
 
