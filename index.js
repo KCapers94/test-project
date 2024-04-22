@@ -41,7 +41,7 @@ function renderBballCard(players) {
     const nameOverImg = document.createElement('div')
     nameOverImg.id = "name-Over"
     nameOverImg.className = "name-Over-Img"
-    nameOverImg.textContent = `${player.name}`;
+    nameOverImg.textContent = `${player.nickName}`;
     nbaCard.appendChild(nameOverImg)
     
     pic.addEventListener("mouseover", ()=> {

@@ -5,7 +5,7 @@
 #jordan{
 width: 200px;
 height: 200px;
-margin-left:80px;
+margin-left:160px;
 }
 
 #kobe{
@@ -44,9 +44,20 @@ margin-left:80px;
 }
 
 #name-Over{
+    display:block;
+    width:100%;
     font-size: larger;
     color:rgb(0, 3, 6);
     margin-left: 50px;
-    
+    font-size: large;
+    font-style: italic;
+    font-display: bold;
+
 }
+
+#nba-image{
+    position:relative;
+    width: 300px;
+}
+
 
